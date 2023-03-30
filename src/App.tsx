@@ -8,7 +8,7 @@ import RaidProgression from "./components/RaidProgression";
 
 const App = () => {
   return (
-    <div className="App font-nunito h-full bg-purple text-gold overflow-x-hidden">
+    <div className="App font-nunito h-full bg-purple text-gold overflow-x-clip">
       <Nav />
       <main className="max-w-5xl mx-auto flex flex-col gap-y-8 pb-8 pt-24">
         <HeroBanner />
